@@ -3,174 +3,259 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sandeep's Resume</title>
+    <title>Sandeep Mohan Nayak's Resume</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 10%;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        header a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px 10%;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ffd700;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f4f4f4;
+        }
+
+        ul {
+            margin: 10px 0 20px 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li h3 {
+            margin: 0;
+            font-size: 1.1em;
+            color: #444;
+        }
+
+        a {
+            color: #d35400;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #e74c3c;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10%;
+        }
+
+        footer a {
+            color: #ffd700;
+        }
+
+        footer a:hover {
+            color: #ff4500;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        .back-to-top {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffd700;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .back-to-top:hover {
+            background-color: #ffae42;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header img {
+                margin: 0 0 20px;
+                width: 150px;
+            }
+
+            header h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
 </head>
 <body>
-
-    <!-- <a target = "_blank" href="https://www.google.com">Click me</a> -->
-
     <header>
-        <table>
-            <tr>
-                <td><img width="300"src="https://avatars.githubusercontent.com/u/61183641?s=400&u=47ff51678b9b8df4b7c841c22cf2e3752176492c&v=4" alt="Sandeep Mohan Nayak's photo"></td>
-                <td><h1>Sandeep Mohan Nayak</h1>
-                    <p><i>Research Scholar at Department of Aerospace Engineering, Indian Institue of Technology Kanpur</i></p>
-                    <p>Greetings, I'm Sandeep, an enthusiastic student specializing in electrical machine design, finite element analysis, and control systems. Currently, I'm immersed in my postgraduate studies at the <a href="https://www.iitk.ac.in/aero/?view=featured">Department of Aerospace Engineering</a>, Indian Institute of Technology Kanpur, where my focus lies in the development and control of electromagnetic actuators tailored for aerospace applications.
-
-                        My journey into this fascinating field commenced with a Bachelor's degree from <a href="https://www.vssut.ac.in/">Veer Surendra Sai University of Technology</a>, Burla. For my undergraduate project, I delved deeply into the modeling and control of bidirectional DC-DC converters. My work involved crafting a comprehensive state-space model for the converter, alongside devising a control logic facilitating seamless grid-to-vehicle and vehicle-to-grid operations.
-                        
-                        Throughout my academic pursuits, I've garnered extensive expertise in various domains, including the design of electromagnetic products such as rotating machines and brakes. Moreover, my proficiency in finite element analysis has enabled me to conduct intricate electromagnetic analyses, enriching my understanding of complex systems.
-                        
-                        In terms of programming proficiency, I am adept in MATLAB, leveraging its power to conduct dynamic studies and develop precise mathematical models. Additionally, I possess foundational skills in C++, which have proven invaluable in my academic endeavors.
-                        
-                        My commitment to advancing knowledge in my field is underscored by my contributions to scientific literature. I've had the privilege of publishing several research articles in esteemed journals, showcasing my ability to conduct rigorous research and contribute meaningfully to the scientific community.
-                        
-                        Looking ahead, I am eager to continue my research journey, pushing the boundaries of electromagnetic product development and making substantive contributions to the field.
-                    </p>
-                    
-
-                    <nav>
-                        <ul>
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#Thesis">Thesis</a></li>
-                            <li><a href="#CProjects">Projects</a></li>
-                            <li><a href="#contact">Contact Me</a></li>
-                            <li><a href="#Publication">Publications</a></li>
-                        </ul>
-                    </nav>
-                </td>
-            </tr>
-        </table>
+        <img src="https://avatars.githubusercontent.com/u/61183641?s=400&u=47ff51678b9b8df4b7c841c22cf2e3752176492c&v=4" alt="Sandeep Mohan Nayak's photo" width="150">
+        <div>
+            <h1>Sandeep Mohan Nayak</h1>
+            <p><i>Research Scholar, Department of Aerospace Engineering, <a href="https://www.iitk.ac.in/aero/?view=featured">IIT Kanpur</a></i></p>
+            <p>Specializing in electrical machine design, finite element analysis, and control systems.</p>
+        </div>
     </header>
 
-    <hr>
-    <!--Header ends-->
-
-
     <main>
-
+        <!-- Education Section -->
         <section id="education">
             <h2>Education</h2>
-            <table border="">
+            <table>
                 <tr>
                     <th>Course</th>
                     <th>Institute</th>
                     <th>Year</th>
-                    <th>CPI/%</th>
                 </tr>
                 <tr>
-                    <td>BTech.</td>
-                    <td>Veer Surendra Sai University of Technology Burla</td>
-                    <td>2019</td>
-                    <th>8.97/10</th>
+                    <td>MS(R)+Ph.D</td>
+                    <td>Indian Institute of Technology Kanpur</td>
+                    <td>Ongoing</td>
                 </tr>
                 <tr>
-                    <td>12th Intermediate</td>
-                    <td>Buxi Jagabandhu Bidyadhar Junior College Bhubaneswar</td>
-                    <td>2015</td>
-                    <th>86.16%</th>
-                </tr>
-                <tr>
-                    <td>10th Matriculation</td>
-                    <td>Gopalpur High School, Gopalpur</td>
-                    <td>2013</td>
-                    <th>92.3%</th>
+                    <td>B.Tech</td>
+                    <td>Veer Surendra Sai University of Technology Burla (VSSUT)</td>
+                    <td>2015-2019</td>
                 </tr>
             </table>
         </section>
-        
-        <section id="Thesis">
-        <h2>MS (R) Thesis</h2>
-        <p>I am working on <i><strong>Design and analysis of BLDC motor for Aerospace Applications</strong></i>. The project aims to achieve the following objectives:</p>
-        <ul>
-            <li>Designing, developing, and analyzing a BLDC motor for use in a single-rotor unmanned helicopter.</li>
-            <li>Analysis of a commercially available fixed wing BLDC motor.</li>
-        </ul>
-        <h2>PhD Thesis</h2>
-        <p>I am currently engaged in the project titled  <i><strong>"Actuator Design and Control of a Dual-Spin System"</strong></i>. The primary objectives of this project are as follows:</p>
-        <ul>
-            <li>Design of various brakes applicable for dual-spin system</li>
-            <li>Design of electromagnetic generator</li>
-        </ul>
-        </section>
-        
-        <section id="CProjects">
-        <h2>Course Projects</h2>
-        <ul>
-            <li><h3>Study on Bidirectional DC-DC Converter <i>(April, 2019)</i></h3>
-                <p><i>Thesis supervisor: <a href="https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/pradhanjk">Dr. Jatin Kumar Pradhan</a>, <a href="https://www.vssut.ac.in/department.php?url=electrical-engineering">Department of Electrical Engineering, VSSUT, Burla</a></i></p>
-                <p>Developed a Simulink model for a Bidirectional DC-DC converter and separately engineered Buck and Boost converters utilizing an Arduino Uno.</p>
-            </li>
-            <li><h3>Fault Identification of Quadcopter <i>(Jul, 2019-Aug, 2020)</i></h3>
-                <p><i>PI: <a href="https://home.iitk.ac.in/~srsahoo/">Dr. Soumya Ranjan Sahoo</a>, <a href="https://www.iitk.ac.in/ee/">Department of Electrical Engineering, IIT Kanpur</a></i></p>
-                <p>Developed a fault diagnosis system simulation for a quadcopter utilizing wavelet transform.</p>
-            </li>
-            <li><h3>Task Scheduling of Autopilot Software <i>(Nov, 2020)</i></h3>
-                <p><i>Instructor: <a href="https://home.iitk.ac.in/~mangal/">Dr. Mangal Kothari</a>, <a href="https://www.iitk.ac.in/aero/?view=featured">Department of Aerosapce Engineering, IIT Kanpur</a></i></p>
-                <p>Developed code on the STM32F407 Discovery board to perform context switching for four DC motors.</p>
-            </li>
-            <li><h3>Simulation of an Induction Motor in Different Frame of Reference <i>(Jul, 2021)</i></h3>
-                <p>Designed a Simulink model of an equivalent induction motor and investigated its behavior in various reference frames.</p>
-            </li>
-            <li><h3>Study of an Interior Permanent Magnet (IPM) Motor in Maxwell-2D <i>(Jul, 2021)</i></h3>
-                <p>Designed and analyzed the Toyota Prius IPM motor using Maxwell-2D, comparing its electromagnetic behaviors.</p>
-            </li>
-        </ul>
-        </section>
 
+        <!--Skill Section-->
+        <section id="Skills">
+            <h2>Technical Skills</h2>
+            <h3></h3>
+            <ul>
+                <li><strong>Electromechanical System Design:</strong> Electromechanical actuator, Generator, Coil, Transformer Design, Finite Element Analysis (FEA), Multiphysics Study (EM-Thermal).</li>
+                <li><strong>Control Systems:</strong> Linear and Nonlinear Controller Design, Motor Control, Flight Control System.</li>
+                <li><strong>Embedded Systems:</strong> ARM Cortex (STM32), Arduino</li>
+                <li><strong>Language:</strong> Embedded C.</li>
+                <li><strong>Software and Tools:</strong> MATLAB&Simulink, ANSYS, COMSOL Multiphysics, Altium PCB Designer.</li>
+                <Li><strong>Miscellaneous:</strong> LATEX, Microsost Word, Powerpoint, Excel.</Li>
+            </ul>
         </section>
-        <h2>Industrial Projects</h2>
-        <ul>
-            <li><h3>Design of 750W, 3000 RPM efficient BLDC Motor <i>(Completed)</i></h3></li>
-            <p>A 750W, 3000RPM, 90% efficiency inner-runner surface permanent magnet BLDC (SPM-BLDC) is designed for <a href="https://addverb.com/">ADDVERB</a>.</p>
-            <li><h3>Design of 500W, 300 RPM Generator for Vertical Axis Wind Turbine <i>(In progress...)</i></h3></li>
-            <p>The objective is to develop a 500W, 300 RPM, 48V cost effective permanent magnet generator suitable for vertical axis wind turbine.</p>
-        </ul>
-        <section>
-
-        <section id="Publication">
-        <h2>Publications</h2>
-        <ul>
-            <li>Nayak, Sandeep Mohan, Jitendra Singh, and Mangal Kothari. "Electromagnetic Torque Control of an Optimized Flux-Concentrated Transverse Flux Generator." In AIAA SCITECH 2024 Forum, p. 0020. 2024.</li>
-            <li>Nayak, Sandeep Mohan, Mangal Kothari, Abhishek Sarkar, and Soumya Ranjan Sahoo. "Multiphysics Analysis of a High-Speed Eddy Current Brake." IEEE Journal on Multiscale and Multiphysics Computational Techniques 9 (2023): 27-35.</li>    
-        </ul>
-
+        <!-- Thesis Section -->
+        <section id="thesis">
+            <h2>Thesis</h2>
+            <h3>MS(R) Thesis</h3>
+            <p><strong>Title: Design and Analysis of BLDC Motor for UAV Applications</strong></p>
+            <ul>
+                <li>Designed and analyzed outrunner radial flux BLDC (ORRFBLDC) motors for aerospace applications, focusing on their
+                    integration into unmanned aerial vehicles (UAVs) and addressing challenges specific to single-rotor helicopters, such as
+                    f
+                    ixed-speed operation and mechanical load management.</li>
+                <li>Utilized a comprehensive design methodology, including analytical calculations and finite element analysis (FEA) through
+                    magnetostatic, transient, dynamic, and parametric simulations.</li>
+                <li>Developed prototypes and performed laboratory testing to evaluate motor suitability for aerospace applications.</li>
+                <li>Conducted electromagnetic FEA of commercially available BLDC motors using ANSYS Maxwell, incorporating inputs for
+                    core loss determination and performance optimization.</li>
+            </ul>
+            <h3>PhD Thesis</h3>
+            <p><strong>Title: Development and Control of Actuators for Roll Stabilization in Dual-Spin
+                Artillery Projectile</strong></p>
+            <ul>
+                <li>Designed a dual-purpose fuze model utilizing a permanent magnet (PM) generator for
+                    both power generation and roll control, offering a cost-effective solution for precision munitions.</li>
+                <li> Investigated resistive braking methods for roll correction by digitally varying resistance to
+                    produce variable braking torque, while addressing challenges in reliability and compactness.</li>
+                <li>Developed a mathematical model for an eddy current brake that accurately repre
+                    sents high-speed behavior and estimates braking torque based on excitation current and operating speed, incorporating
+                     temperature effects due to the varying conductivity of the braking element.</li>
+                <li>Explored magnetorheological (MR) fluid as a smart material for compact, energy
+                    efficient braking, utilizing a hybrid configuration to optimize braking torque at high angular speeds. Modeled the MR
+                     brake to enhance the average magnetic field in the fluid gap, ensuring robust operation and simple assembly for high-speed
+                     dual-spin applications.</li>
+            </ul>
         </section>
 
-        <section>
-            <h2>Research Identity</h2>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
             <ul>
                 <li>
-                    <a href="https://scholar.google.com/citations?user=Uey3p6AAAAAJ&hl=en">https://scholar.google.com/citations?user=Uey3p6AAAAAJ&hl=en</a>
+                    <h3>Design of Low-Cost Axial Flux Permanent Magnet Generator for Vertical Axis Wind Turbine (Part-time Project, Ongoing)</h3>
+                    <p>PI: <a href="https://home.iitk.ac.in/~abhish/">Dr. Abhishek</a></p>
+                    <p> This project investigates the feasibility of using ferrite magnets in a wind energy conversion system. An Axial-Flux Permanent
+                        Magnet (AFPM) generator is designed based on analytical machine design principles and validated through FEA.</p>
                 </li>
                 <li>
-                    <a href="https://orcid.org/0009-0003-6026-565X"> https://orcid.org/0009-0003-6026-565X</a>
+                    <h3>Fault Diagnosis of Quadrotor Vehcile (JRF Project, 2019-2020)</h3>
+                    <p>PI: <a href="https://home.iitk.ac.in/~srsahoo/">Dr. Soumya Ranjan Sahoo</a></p>
+                    <p>Developed a mathematical model of a quad-rotor vehicle using the SIMULINK platform. Diagnosed single-rotor and diago
+                        nally opposite motor faults through the application of wavelet transform techniques, ensuring minimal collateral damage during
+                         quadcopter missions.</p>
+                </li>
+                <li>
+                    <h3>Study of Bidirectional DC-DC Converter (UG Project, 2018-2019)</h3>
+                    <p>Thesis supervisor: <a href="https://www.nitrkl.ac.in/FacultyStaff/FacultyProfile/pradhanjk">Dr. Jatin Kumar Pradhan</a></p>
+                    <p>Developed the mathematical and SIMULINK model of a bidirectional DC-DC converter for vehicle-to-grid (V2G) and grid
+                        to-vehicle (G2V) applications, incorporating control logic based on voltage threshold.</p>
                 </li>
             </ul>
         </section>
 
+        <!-- Contact Section -->
+        <footer>
+            <h2>Contact</h2>
+            <p>Computer Lab, Helicopter Building, IIT Kanpur</p>
+            <p>Email: <a href="mailto:sandeepn20@iitk.ac.in">sandeepn20@iitk.ac.in</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sandeep-mohan-nayak-0486a7183/">Profile</a></p>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </footer>
     </main>
-        
-        <hr>
-    
-        <!--Main Section Ends-->
-    <footer>
-        <h2 id="contact">Contact</h2>
-        <p>Computer Lab, First floor, Helicopter building, Department of Aerospace Engineering, IIT Kanpur, Uttar Pradesh, 208016</p>
-        <p>Email: <a href="mailto:sandeepn20@iitk.ac.in">sandeepn20@iitk.ac.in</a></p>
-        <p>Linkedin: <a href="https://www.linkedin.com/in/sandeep-mohan-nayak-0486a7183/">linkedin.com/in/sandeep-mohan-nayak-0486a7183</a></p>
-        <!-- <p><a href="tel:9898989898">9898989898</a></p> -->
-    
-        <!-- <a href="aboutus.html"><p>About Us</p></a> -->
-
-        <a href="#">Back Top</a>
-    </footer>
-        
-
-    <br><br><br>
-    
-       
 </body>
-    
-    
 </html>
